@@ -5,7 +5,7 @@
         "../sass/main.scss",
         "../sass/utils/_colors.scss",
         "../sass/utils/_global.scss",
-        "../sass/utils/_vars.scss",
+        "../sass/utils/variables.scss",
         "../sass/components/header/_header.scss",
         "../sass/components/header/_siteNav.scss",
         "../sass/components/header/_authNav.scss",
