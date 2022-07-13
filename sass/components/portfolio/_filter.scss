@@ -1,5 +1,5 @@
-.works {
-    &__filter--list {
+.filter {
+    &__list {
         display: flex;
         justify-content: center;
       
@@ -7,11 +7,11 @@
         padding: 0;
     }
 
-    &__filter--item:not(last-child) {
+    &__item:not(last-child) {
         margin-right: 8px;
     }
 
-    &__filter--btn {
+    &__btn {
         font-family: inherit;
         font-size: 16px;
         font-weight: 500;
@@ -26,8 +26,8 @@
           box-shadow $timing-function, color $timing-function;
     }
     
-    &__filter--btn:hover,
-    &__filter--btn:focus {
+    &__btn:hover,
+    &__btn:focus {
         cursor: pointer;
         background-color: $accent-color;
         color: $white-color;
