@@ -782,4 +782,87 @@ p {
 .footer__address--loc a:focus {
   color: #2196f3;
 }
+
+.join__title {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.join__contacts--list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+}
+
+.join__contacts--item:not(:last-child) {
+  margin: 0 10px 0 0;
+}
+
+.join .team__contacts--link {
+  fill: #fff;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.join .team__contacts--link:hover,
+.join .team__contacts--link:focus {
+  cursor: pointer;
+  fill: #fff;
+  background-color: #2196f3;
+}
+
+.subscribe {
+  margin: 0 0 0 auto;
+}
+
+.subscribe__title {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  /* margin-top: 8px; */
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.subscribe__form--block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.subscribe__input {
+  padding: 0 0 0 16px;
+  margin: 0 12px 0 0;
+  width: 358px;
+  min-height: 50px;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: #2f303a;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+
+.subscribe__icon--subscribe {
+  margin: 0 0 0 10px;
+  fill: #fff;
+}
+
+.subscribe__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 /*# sourceMappingURL=main.css.map */
