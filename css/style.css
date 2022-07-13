@@ -150,80 +150,10 @@
 /* #endregion */
 
 /* #region Footer */
-.footer {
-  padding: 60px 0 60px 0;
-
-  background-color: #2f303a;
-}
-
-.logo-footer {
-  text-decoration: none;
-  font-size: 26px;
-  font-weight: 700;
-
-  letter-spacing: 0.03em;
-  line-height: 1.5;
-
-  color: var(--btn-active);
-  font-family: "Raleway", sans-serif;
-}
-
-.logo-footer > span {
-  color: var(--white);
-}
-
-.footer-address {
-  margin: 20px 70px 0 0;
-  line-height: 1.7;
-  display: flex;
-  flex-direction: column;
-}
-
-.footer-address a {
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-}
-
-.footer-contact {
-  color: var(--white);
-  font-size: 14px;
-  font-style: normal;
-
-  transition: color var(--timing-function);
-}
-
-.footer-contact:not(:last-child) {
-  margin-bottom: 9px;
-}
-
-.footer-contact:hover,
-.footer-contact:focus {
-  color: var(--btn-active);
-}
-
-.mail,
-.phone,
-.location {
-  opacity: 0.6;
-}
-
-.footer-address-loc a {
-  text-decoration: none;
-  color: var(--white);
-}
-
-.footer-address-loc a:hover {
-  color: var(--btn-active);
-}
 
 /* join block */
 
-.footer-wrapper {
-  display: flex;
-  align-items: baseline;
-}
-
-.footer-title {
+.join__title {
   color: var(--white);
   text-transform: uppercase;
   font-weight: 700;

@@ -706,4 +706,80 @@ p {
   width: 50px;
   height: 50px;
 }
+
+.footer {
+  padding: 60px 0 60px 0;
+  background-color: #2f303a;
+}
+
+.footer__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.footer__logo {
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 1.5;
+  color: #2196f3;
+  font-family: "Raleway", sans-serif;
+}
+
+.footer__logo > span {
+  color: #fff;
+}
+
+.footer__address {
+  margin: 20px 70px 0 0;
+  line-height: 1.7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer__address a {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.footer__contact {
+  font-size: 14px;
+  font-style: normal;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer__contact:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.footer__contact:hover, .footer__contact:focus {
+  color: #2196f3;
+}
+
+.footer .mail,
+.footer .phone,
+.footer .location {
+  opacity: 0.6;
+}
+
+.footer__address a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer__address--loc a:hover,
+.footer__address--loc a:focus {
+  color: #2196f3;
+}
 /*# sourceMappingURL=main.css.map */
