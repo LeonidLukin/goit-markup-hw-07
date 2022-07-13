@@ -1,5 +1,4 @@
 .backdrop {
-    padding: 1%;
     position: fixed;
     display: flex;
     justify-content: center;
@@ -11,8 +10,9 @@
   
     transition: opacity $timing-function;
 }
-// .backdrop.is-hidden {
-//     visibility: hidden;
-//     opacity: 0;
-//     pointer-events: none;
-// }
+
+.backdrop.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}

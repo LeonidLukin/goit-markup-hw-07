@@ -2,67 +2,6 @@
   padding: 94px 0;
 }
 
-/* #region Hero*/
-
-/* backdrop */
-
-/* form */
-
-.checkbox {
-  padding: 0 0 0 1.2em;
-  display: flex;
-  text-align: center;
-  flex-direction: row;
-  margin: 0 auto 30px auto;
-}
-
-.check {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
-
-.check:hover + .check-box,
-.check:focus + .check-box,
-.check-box:hover,
-.check-box:focus {
-  background-image: url(../images/check/checkHover.svg);
-}
-
-.check:checked + .check-box {
-  background-image: url(../images/check/checked.svg);
-}
-
-.check-box {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-
-  margin: 0 8px 0 0;
-  margin: 0 0 0 -1.2em;
-  width: 1em;
-  height: 1em;
-  background-image: url(../images/check/check.svg);
-  background-color: #fff;
-}
-
-.agreement {
-  margin: 0 0 0 8px;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-}
-
-.agreement:hover {
-  cursor: pointer;
-}
-
-.agreement-terms {
-  color: #2196f3;
-}
-
-/* #endregion Hero*/
-
 /* #region Benefits */
 
 .hide-title {
