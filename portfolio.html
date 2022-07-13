@@ -13,39 +13,41 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
 
     <!-- section Header -->
     <header class="header">
-        <nav class="container main-nav">
-                <a class="header-logo logo" href="./index.html" aria-label="Home page link">Web<span>Studio</span></a>
+        <nav class="header__nav container">
+                <a class="header__logo logo" href="./index.html" aria-label="Home page link">
+                    Web<span class="header__logo--span">Studio</span>
+                </a>
 
-                <ul class="site-nav list">
-                    <li class="nav-item link">
-                        <a class="nav-link" href="./index.html" aria-label="Home page link">Студия</a> 
+                <ul class="nav list">
+                    <li class="nav__item link">
+                        <a class="nav__link" href="./index.html" aria-label="Home page link">Студия</a> 
                     </li>
-                    <li class="nav-item link">
-                        <a class="nav-link active" href="./portfolio.html" aria-label="portfolio page link">Портфолио</a> 
+                    <li class="nav__item link">
+                        <a class="nav__link active" href="./portfolio.html" aria-label="portfolio page link">Портфолио</a> 
                     </li>
-                    <li class="nav-item link">
-                        <a class="nav-link" href="#" aria-label="contacts page link">Контакты</a> 
+                    <li class="nav__item link">
+                        <a class="nav__link" href="#" aria-label="contacts page link">Контакты</a> 
                     </li>
                 </ul>
             
-                <ul class="auth-nav list">
-                    <li class="auth-nav-link link" >                        
-                        <a class="nav-icon-mail nav-icon" href="mailto:info@devstudio.com" aria-label="contact email link">
-                            <svg class="mail-icon" width="16" height="12">
+                <ul class="auth list">
+                    <li class="auth__link link" >                        
+                        <a class="auth__icon" href="mailto:info@devstudio.com" aria-label="contact email link">
+                            <svg class="auth__mail--icon" width="16" height="12">
                                 <use href="./images/icons.svg#icon-mail"></use>
                             </svg>
                             info@devstudio.com
                         </a>
                     </li>
-                    <li class="auth-nav-link link" >                        
-                        <a class="nav-icon-phone nav-icon" href="tel:+380961111111" aria-label="contact phone link">
-                            <svg class="phone-icon" width="10" height="16">
+                    <li class="auth__link link" >                        
+                        <a class="auth__icon" href="tel:+380961111111" aria-label="contact phone link">
+                            <svg class="auth__phone--icon" width="10" height="16">
                                 <use href="./images/icons.svg#icon-phone"></use>
                             </svg>
                             +38 096 111 11 11
