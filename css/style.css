@@ -1,36 +1,6 @@
 /* #region Activity */
 
-.activity-item {
-  z-index: -1;
-  width: 370px;
-  position: relative;
-}
-
-.activity_item:not(last-child) {
-  padding-right: 30px;
-}
-
-.activity-image {
-  display: block;
-}
-
-.activity-label {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  min-height: 70px;
-  background-color: rgba(47, 48, 58, 0.8);
-  color: #fff;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  font-weight: 700;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
+.activity-
 /* #endregion Activity */
 
 /* #region Team */
